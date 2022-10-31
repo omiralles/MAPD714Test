@@ -288,7 +288,6 @@ class ViewController: UIViewController {
     //On save button pressed print the actual values
     @IBAction func saveButtonPressed (_ sender: UIButton) {
         print("-------------------")
-        listName = "My Shopping List"
         print(listName)
         print("-------------------")
         
@@ -304,6 +303,7 @@ class ViewController: UIViewController {
     
     //Inicialize all the values
     func initComponents() {
+        listName = "My Shopping List"
         textListNameV.text = listName
         textListNameH.text = listName
         if (!items.isEmpty) { items.removeAll() }
