@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A99680A0290E23B40056F904 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A996809F290E23B40056F904 /* AppDelegate.swift */; };
+		A99680A2290E23B40056F904 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99680A1290E23B40056F904 /* SceneDelegate.swift */; };
+		A99680A4290E23B40056F904 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99680A3290E23B40056F904 /* ViewController.swift */; };
+		A99680A7290E23B40056F904 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A99680A5290E23B40056F904 /* Main.storyboard */; };
+		A99680A9290E23B50056F904 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A99680A8290E23B50056F904 /* Assets.xcassets */; };
+		A99680AC290E23B50056F904 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A99680AA290E23B50056F904 /* LaunchScreen.storyboard */; };
+		A99680B7290E23B50056F904 /* OscarMiralles_MAPD714_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99680B6290E23B50056F904 /* OscarMiralles_MAPD714_TestTests.swift */; };
+		A99680C1290E23B50056F904 /* OscarMiralles_MAPD714_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99680C0290E23B50056F904 /* OscarMiralles_MAPD714_TestUITests.swift */; };
+		A99680C3290E23B50056F904 /* OscarMiralles_MAPD714_TestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99680C2290E23B50056F904 /* OscarMiralles_MAPD714_TestUITestsLaunchTests.swift */; };
+		A99680D0290E24310056F904 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99680CF290E24310056F904 /* Item.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A99680B3290E23B50056F904 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9968094290E23B40056F904 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A996809B290E23B40056F904;
+			remoteInfo = OscarMiralles_MAPD714_Test;
+		};
+		A99680BD290E23B50056F904 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9968094290E23B40056F904 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A996809B290E23B40056F904;
+			remoteInfo = OscarMiralles_MAPD714_Test;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A996809C290E23B40056F904 /* OscarMiralles_MAPD714_Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OscarMiralles_MAPD714_Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A996809F290E23B40056F904 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A99680A1290E23B40056F904 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A99680A3290E23B40056F904 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A99680A6290E23B40056F904 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A99680A8290E23B50056F904 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A99680AB290E23B50056F904 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A99680AD290E23B50056F904 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A99680B2290E23B50056F904 /* OscarMiralles_MAPD714_TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OscarMiralles_MAPD714_TestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A99680B6290E23B50056F904 /* OscarMiralles_MAPD714_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OscarMiralles_MAPD714_TestTests.swift; sourceTree = "<group>"; };
+		A99680BC290E23B50056F904 /* OscarMiralles_MAPD714_TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OscarMiralles_MAPD714_TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A99680C0290E23B50056F904 /* OscarMiralles_MAPD714_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OscarMiralles_MAPD714_TestUITests.swift; sourceTree = "<group>"; };
+		A99680C2290E23B50056F904 /* OscarMiralles_MAPD714_TestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OscarMiralles_MAPD714_TestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A99680CF290E24310056F904 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9968099290E23B40056F904 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A99680AF290E23B50056F904 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A99680B9290E23B50056F904 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9968093290E23B40056F904 = {
+			isa = PBXGroup;
+			children = (
+				A996809E290E23B40056F904 /* OscarMiralles_MAPD714_Test */,
+				A99680B5290E23B50056F904 /* OscarMiralles_MAPD714_TestTests */,
+				A99680BF290E23B50056F904 /* OscarMiralles_MAPD714_TestUITests */,
+				A996809D290E23B40056F904 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A996809D290E23B40056F904 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A996809C290E23B40056F904 /* OscarMiralles_MAPD714_Test.app */,
+				A99680B2290E23B50056F904 /* OscarMiralles_MAPD714_TestTests.xctest */,
+				A99680BC290E23B50056F904 /* OscarMiralles_MAPD714_TestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A996809E290E23B40056F904 /* OscarMiralles_MAPD714_Test */ = {
+			isa = PBXGroup;
+			children = (
+				A996809F290E23B40056F904 /* AppDelegate.swift */,
+				A99680A1290E23B40056F904 /* SceneDelegate.swift */,
+				A99680CF290E24310056F904 /* Item.swift */,
+				A99680A3290E23B40056F904 /* ViewController.swift */,
+				A99680A5290E23B40056F904 /* Main.storyboard */,
+				A99680A8290E23B50056F904 /* Assets.xcassets */,
+				A99680AA290E23B50056F904 /* LaunchScreen.storyboard */,
+				A99680AD290E23B50056F904 /* Info.plist */,
+			);
+			path = OscarMiralles_MAPD714_Test;
+			sourceTree = "<group>";
+		};
+		A99680B5290E23B50056F904 /* OscarMiralles_MAPD714_TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				A99680B6290E23B50056F904 /* OscarMiralles_MAPD714_TestTests.swift */,
+			);
+			path = OscarMiralles_MAPD714_TestTests;
+			sourceTree = "<group>";
+		};
+		A99680BF290E23B50056F904 /* OscarMiralles_MAPD714_TestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A99680C0290E23B50056F904 /* OscarMiralles_MAPD714_TestUITests.swift */,
+				A99680C2290E23B50056F904 /* OscarMiralles_MAPD714_TestUITestsLaunchTests.swift */,
+			);
+			path = OscarMiralles_MAPD714_TestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A996809B290E23B40056F904 /* OscarMiralles_MAPD714_Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A99680C6290E23B50056F904 /* Build configuration list for PBXNativeTarget "OscarMiralles_MAPD714_Test" */;
+			buildPhases = (
+				A9968098290E23B40056F904 /* Sources */,
+				A9968099290E23B40056F904 /* Frameworks */,
+				A996809A290E23B40056F904 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OscarMiralles_MAPD714_Test;
+			productName = OscarMiralles_MAPD714_Test;
+			productReference = A996809C290E23B40056F904 /* OscarMiralles_MAPD714_Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A99680B1290E23B50056F904 /* OscarMiralles_MAPD714_TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A99680C9290E23B50056F904 /* Build configuration list for PBXNativeTarget "OscarMiralles_MAPD714_TestTests" */;
+			buildPhases = (
+				A99680AE290E23B50056F904 /* Sources */,
+				A99680AF290E23B50056F904 /* Frameworks */,
+				A99680B0290E23B50056F904 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A99680B4290E23B50056F904 /* PBXTargetDependency */,
+			);
+			name = OscarMiralles_MAPD714_TestTests;
+			productName = OscarMiralles_MAPD714_TestTests;
+			productReference = A99680B2290E23B50056F904 /* OscarMiralles_MAPD714_TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A99680BB290E23B50056F904 /* OscarMiralles_MAPD714_TestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A99680CC290E23B50056F904 /* Build configuration list for PBXNativeTarget "OscarMiralles_MAPD714_TestUITests" */;
+			buildPhases = (
+				A99680B8290E23B50056F904 /* Sources */,
+				A99680B9290E23B50056F904 /* Frameworks */,
+				A99680BA290E23B50056F904 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A99680BE290E23B50056F904 /* PBXTargetDependency */,
+			);
+			name = OscarMiralles_MAPD714_TestUITests;
+			productName = OscarMiralles_MAPD714_TestUITests;
+			productReference = A99680BC290E23B50056F904 /* OscarMiralles_MAPD714_TestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9968094290E23B40056F904 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					A996809B290E23B40056F904 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					A99680B1290E23B50056F904 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = A996809B290E23B40056F904;
+					};
+					A99680BB290E23B50056F904 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = A996809B290E23B40056F904;
+					};
+				};
+			};
+			buildConfigurationList = A9968097290E23B40056F904 /* Build configuration list for PBXProject "OscarMiralles_MAPD714_Test" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9968093290E23B40056F904;
+			productRefGroup = A996809D290E23B40056F904 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A996809B290E23B40056F904 /* OscarMiralles_MAPD714_Test */,
+				A99680B1290E23B50056F904 /* OscarMiralles_MAPD714_TestTests */,
+				A99680BB290E23B50056F904 /* OscarMiralles_MAPD714_TestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A996809A290E23B40056F904 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A99680AC290E23B50056F904 /* LaunchScreen.storyboard in Resources */,
+				A99680A9290E23B50056F904 /* Assets.xcassets in Resources */,
+				A99680A7290E23B40056F904 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A99680B0290E23B50056F904 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A99680BA290E23B50056F904 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9968098290E23B40056F904 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A99680D0290E24310056F904 /* Item.swift in Sources */,
+				A99680A4290E23B40056F904 /* ViewController.swift in Sources */,
+				A99680A0290E23B40056F904 /* AppDelegate.swift in Sources */,
+				A99680A2290E23B40056F904 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A99680AE290E23B50056F904 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A99680B7290E23B50056F904 /* OscarMiralles_MAPD714_TestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A99680B8290E23B50056F904 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A99680C1290E23B50056F904 /* OscarMiralles_MAPD714_TestUITests.swift in Sources */,
+				A99680C3290E23B50056F904 /* OscarMiralles_MAPD714_TestUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A99680B4290E23B50056F904 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A996809B290E23B40056F904 /* OscarMiralles_MAPD714_Test */;
+			targetProxy = A99680B3290E23B50056F904 /* PBXContainerItemProxy */;
+		};
+		A99680BE290E23B50056F904 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A996809B290E23B40056F904 /* OscarMiralles_MAPD714_Test */;
+			targetProxy = A99680BD290E23B50056F904 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A99680A5290E23B40056F904 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A99680A6290E23B40056F904 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A99680AA290E23B50056F904 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A99680AB290E23B50056F904 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A99680C4290E23B50056F904 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A99680C5290E23B50056F904 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A99680C7290E23B50056F904 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OscarMiralles_MAPD714_Test/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "es.myorg.OscarMiralles-MAPD714-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A99680C8290E23B50056F904 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OscarMiralles_MAPD714_Test/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "es.myorg.OscarMiralles-MAPD714-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A99680CA290E23B50056F904 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "es.myorg.OscarMiralles-MAPD714-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OscarMiralles_MAPD714_Test.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OscarMiralles_MAPD714_Test";
+			};
+			name = Debug;
+		};
+		A99680CB290E23B50056F904 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "es.myorg.OscarMiralles-MAPD714-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OscarMiralles_MAPD714_Test.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OscarMiralles_MAPD714_Test";
+			};
+			name = Release;
+		};
+		A99680CD290E23B50056F904 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "es.myorg.OscarMiralles-MAPD714-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OscarMiralles_MAPD714_Test;
+			};
+			name = Debug;
+		};
+		A99680CE290E23B50056F904 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "es.myorg.OscarMiralles-MAPD714-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OscarMiralles_MAPD714_Test;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9968097290E23B40056F904 /* Build configuration list for PBXProject "OscarMiralles_MAPD714_Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A99680C4290E23B50056F904 /* Debug */,
+				A99680C5290E23B50056F904 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A99680C6290E23B50056F904 /* Build configuration list for PBXNativeTarget "OscarMiralles_MAPD714_Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A99680C7290E23B50056F904 /* Debug */,
+				A99680C8290E23B50056F904 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A99680C9290E23B50056F904 /* Build configuration list for PBXNativeTarget "OscarMiralles_MAPD714_TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A99680CA290E23B50056F904 /* Debug */,
+				A99680CB290E23B50056F904 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A99680CC290E23B50056F904 /* Build configuration list for PBXNativeTarget "OscarMiralles_MAPD714_TestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A99680CD290E23B50056F904 /* Debug */,
+				A99680CE290E23B50056F904 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9968094290E23B40056F904 /* Project object */;
+}
